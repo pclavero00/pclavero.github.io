@@ -1,0 +1,47 @@
+table {
+    background-color: lightyellow;
+    border-collapse: collapse;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    border: 2px solid black;
+}
+
+img {
+    float: left;
+}
+
+div {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    color: brown;
+}
+
+td img {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+    table {
+        width: 100%;
+
+        margin-top: 20vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    td img {
+        width: 26vw;
+
+    }
+
+    h2 {
+        color: midnightblue;
+    }
+}
